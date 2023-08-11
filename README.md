@@ -5,7 +5,7 @@ Support library for signing Samsung Knox API access tokens
 ## Install
 
 ```
-composer require proget-hq/knox-token
+composer require healthrecoverysolutions/knox-token
 ```
 
 ## Usage

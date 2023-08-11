@@ -1,11 +1,11 @@
 {
-    "name": "proget-hq/knox-token",
+    "name": "healthrecoverysolutions/knox-token",
     "description": "Support library for signing Samsung Knox API access tokens",
     "type": "library",
     "require": {
         "php": ">=7.4",
         "ext-json": "*",
-        "firebase/php-jwt": "^5.0",
+        "firebase/php-jwt": "^5.0 || ^6.0",
         "ramsey/uuid": "^3.8 || ^4.0"
     },
     "require-dev": {

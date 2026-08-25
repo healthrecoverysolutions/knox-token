@@ -5,7 +5,7 @@
     "require": {
         "php": ">=7.4",
         "ext-json": "*",
-        "firebase/php-jwt": "^5.0 || ^6.0",
+        "firebase/php-jwt": "^5.0 || ^6.0 || ^7.0",
         "ramsey/uuid": "^3.8 || ^4.0"
     },
     "require-dev": {
@@ -29,11 +29,6 @@
     "autoload-dev": {
         "psr-4": {
             "Proget\\Tests\\Samsung\\KnoxToken\\": "tests/"
-        }
-    },
-    "config": {
-        "platform": {
-            "php": "7.4.30"
         }
     },
     "scripts": {
